@@ -1,0 +1,26 @@
+To set up: 
+download Stellar Neopixels folder
+save it to the desktop
+
+open terminal
+
+type:
+sudo nano /etc/rc.local
+
+paste:
+python /home/pi/Desktop/Stellar Neopixels/run_neopixels.py&
+
+control x, y, enter
+
+in terminal
+
+type:
+sudo apt-get install rpi.gpio
+
+in main menu:
+preferances<raspberry pi configuration<interfaces
+enable all
+
+shut down pi
+unplug hdmi
+wait 1 min before trying buttons
